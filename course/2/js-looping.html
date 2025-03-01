@@ -6,7 +6,9 @@
 		<p>In this example, x, y, and z are undeclared.</p>
 		<p>They are automatically declared when first used.</p>
 
-		<p id="demo"></p>
+		<p id="demo">
+                 
+        </p>
 	</body>
     <script>
 
@@ -24,8 +26,12 @@
               link: 'https://google.com'
           },
         ]
-
+        document.getElementById('demo').innerHTML = 
+          `<ul>
+              ${trending.map((item) =>
+                  `<li>
+                      <a href="${item.link}">${item.judul}</a>
+                  </li>`).join('')}
+          </ul>` 
 	</script>
 </html>
-
-
