@@ -1,27 +1,29 @@
 class Botol{
-    string Merek;
-    string Warna;
-    int CapasitasMl;
-
-    void bukabotol(){
+    constructor(){
+    this.Merek=''
+    this.Warna=''
+    this.CapasitasMl = 0
+    }
+    
+    bukabotol(){
         // logika membuka botol
     }
 
-    Void minum(){
+    minum(){
         // logika meminum air
     }
 
-    void plintirbotol(){
+    plintirbotol(){
         // logika plintir botol untuk dibuang
 
     }
 
-    void buangbotol(){
+    buangbotol(){
         // logika membuang botol pada tempatnya
     }
 }
 
-Botol Minumsaya = new Botol();
+var Minumsaya = new Botol();
 Minumsaya.Merek = "LeMineral";
 Minumsaya.Warna = "Bening";
 Minumsaya.CapasitasMl = 300;
@@ -30,3 +32,5 @@ Minumsaya.bukabotol();
 Minumsaya.minum();
 Minumsaya.plintirbotol();
 Minumsaya.buangbotol();
+
+console.log(Minumsaya)
