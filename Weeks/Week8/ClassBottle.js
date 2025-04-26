@@ -7,6 +7,10 @@ class Botol{
         // logika membuka botol
     }
 
+    Void minum(){
+        // logika meminum air
+    }
+
     void plintirbotol(){
         // logika plintir botol untuk dibuang
 
@@ -23,5 +27,6 @@ Minumsaya.Warna = "Bening";
 Minumsaya.CapasitasMl = 300;
 
 Minumsaya.bukabotol();
+Minumsaya.minum();
 Minumsaya.plintirbotol();
 Minumsaya.buangbotol();
